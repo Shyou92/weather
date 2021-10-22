@@ -1,12 +1,18 @@
 @import url(../vendor/normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
 
+*,
+*:after, 
+*:before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", "Aaial", sans-serif;
 }
 
 .container {
-  max-width: 98%;
+  max-width: 70%;
   margin: 0 auto;
   padding-top: 20px;
 }

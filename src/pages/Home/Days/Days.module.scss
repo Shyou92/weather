@@ -28,6 +28,7 @@ h2, h3 {
   .day {
     margin-bottom: 7px;
     font-size: 18px;
+    color: var(#{--text-color-default});
   }
 
   .day_info {
@@ -44,6 +45,7 @@ h2, h3 {
 
   .temp__day {
     font-size: 18px;
+    color: var(#{--text-color-default});
   }
 
   .temp__night {
@@ -60,7 +62,7 @@ h2, h3 {
   &:hover {
     box-shadow: var(#{--card-shadow-default});
   }
-}
+} 
 
 .tabs {
   display: flex;

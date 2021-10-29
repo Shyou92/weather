@@ -19,7 +19,7 @@ export const Home = (props: Props) => {
   );
 
   useEffect(() => {
-    dispatch(fetchCurrentWeather('sevastopol'))
+    dispatch(fetchCurrentWeather('sevastopol')) // homecity
   }, []);
 
   return (
